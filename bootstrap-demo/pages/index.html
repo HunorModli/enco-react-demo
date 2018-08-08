@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="../styles/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="../styles/app.css">
   <title>En-Co React</title>
 </head>
@@ -39,8 +40,82 @@
   </nav>
 
   <!-- !NAVBAR -->
+  <!-- MAIN SECTION -->
+  <section>
+    <div class="container">
 
+      <!-- Counter part -->
+      <div class="row mt-5">
+        <div class="col-3">
+          <h1>Current count: </h1>
+        </div>
+        <div class="col-1">
+          <h1>4</h1>
+        </div>
+        <div class="col">
+          <button class="btn btn-lg btn-danger">RESET</button>
+        </div>
+      </div>
 
+      <!-- Posts part -->
+      <h2 class="mt-4">Posts: </h2>
+      <table class="table table-striped table-hover mt-3">
+        <thead>
+          <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Title</th>
+            <th scope="col">Categories</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>I like dogs</td>
+            <td>dog, animal, love</td>
+            <td class="cell-right">
+              <a class="text-danger" href="#">Delete</a>
+            </td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>I don't like cats</td>
+            <td>cat, animal, hate</td>
+            <td class="cell-right">
+              <a class="text-danger" href="#">Delete</a>
+            </td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Bootstrap is shit</td>
+            <td>bootstrap, css, hate, rant</td>
+            <td class="cell-right">
+              <a class="text-danger" href="#">Delete</a>
+            </td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>P != NP?</td>
+            <td>1million$, question, computer science</td>
+            <td class="cell-right">
+              <a class="text-danger" href="#">Delete</a>
+            </td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>Cows are cute</td>
+            <td>lol, lorem ipsum</td>
+            <td class="cell-right">
+              <a class="text-danger" href="#">Delete</a>
+            </td>
+          </tr>
+
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- !MAIN SECTION -->
   <!-- FOOTER -->
   <footer>
     <p>2018 &copy; En-Co Software Kft</p>
