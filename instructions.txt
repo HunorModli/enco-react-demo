@@ -7,3 +7,9 @@
 - counter component
 - profile change
 - posts page with modal
+
+
+REACT
+create-react-app
+
+create the counter object in the main app file without redux
