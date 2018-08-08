@@ -1,0 +1,4 @@
+- Git repo creation.
+- navbar code
+- wire up links (active <li>-s)
+
