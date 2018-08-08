@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="../styles/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="../styles/app.css">
   <title>En-Co React</title>
 </head>
@@ -39,9 +40,146 @@
   </nav>
 
   <!-- !NAVBAR -->
+  <!-- POSTS -->
+
+  <div class="container">
+
+    <!-- Modal button:  -->
+    <div class="row ml-5 mt-5">
+      <button class="btn btn-lg btn-success" data-toggle="modal" data-target="#createNew">ADD NEW POST</button>
+    </div>
+    <!-- Modal Window: -->
+    <div class="modal fade" id="createNew" tabindex="-1" role="dialog" aria-labelledby="createNewLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="createNewLabel">Create New Post</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="title" class="col-form-label">Post title</label>
+                <input type="text" class="form-control" id="title" placeholder="Type title here">
+              </div>
+              <div class="form-group">
+                <label for="tags" class="col-form-label">Tags</label>
+                <input type="text" class="form-control" id="tags" placeholder="eg.: dog, animal, love">
+              </div>
+              <div class="form-group">
+                <label for="content" class="col-form-label">Content:</label>
+                <textarea class="form-control" id="content" placeholder="Type your post here"></textarea>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-outline-success">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
 
 
+
+    <!-- Catd grid: -->
+    <div class="row mt-3">
+      <div class="col-4 pt-3">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-header">I like dogs
+              <small class="float-sm-right">
+                <a href="#">
+                  <i class="fa fa-trash" aria-hidden="true"></i>
+                </a>
+              </small>
+            </h5>
+            <h6 class="card-subtitle mb-2 pt-3 text-muted">dog, animal, love</h6>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's text to build on the card
+              title and make up the bulk of the card's cont content.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-4 pt-3">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-header">I dont like cats
+              <small class="float-sm-right">
+
+                <a href="#">
+                  <i class="fa fa-trash" aria-hidden="true"></i>
+                </a>
+              </small>
+            </h5>
+            <h6 class="card-subtitle mb-2 pt-3 text-muted">cat, animal, hate</h6>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-4 pt-3">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-header">Bootstrap is shit
+              <small class="float-sm-right">
+
+                <a href="#">
+                  <i class="fa fa-trash" aria-hidden="true"></i>
+                </a>
+              </small>
+            </h5>
+            <h6 class="card-subtitle mb-2 pt-3 text-muted">bootstrap, css, hate, rant</h6>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example
+              text to build on the card title and make up the bulk of the card's content.Some quick example text to build
+              on the card title and make up the bulk of </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-4 pt-3">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-header">P != NP?
+              <small class="float-sm-right">
+
+                <a href="#">
+                  <i class="fa fa-trash" aria-hidden="true"></i>
+                </a>
+              </small>
+            </h5>
+            <h6 class="card-subtitle mb-2 pt-3 text-muted">1million$, question, computer science</h6>
+            <p class="card-text">Some quick Some quick example text to build on the card title and make up the bulk of the card's content.example
+              text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-4 pt-3">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-header">Cows are cute
+              <small class="float-sm-right">
+
+                <a href="#">
+                  <i class="fa fa-trash" aria-hidden="true"></i>
+                </a>
+              </small>
+            </h5>
+            <h6 class="card-subtitle mb-2 pt-3 text-muted">lorem ipsum</h6>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+
+  <!-- !POSTS -->
   <!-- FOOTER -->
   <footer>
     <p>2018 &copy; En-Co Software Kft</p>
