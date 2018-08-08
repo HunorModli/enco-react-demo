@@ -12,3 +12,7 @@ footer {
 .cell-right {
   text-align: right
 }
+
+.delete {
+  color: red;
+}

@@ -1,6 +1,9 @@
 - Git repo creation.
+- bootstrap cdn/download
 - navbar code
 - wire up links (active <li>-s)
 
 - footer
 - counter component
+- profile change
+- posts page with modal
