@@ -2,3 +2,5 @@
 - navbar code
 - wire up links (active <li>-s)
 
+- footer
+- counter component
