@@ -1,1 +1,1 @@
-# enco-react-demo
+Javascript, React, Redux tutorial
